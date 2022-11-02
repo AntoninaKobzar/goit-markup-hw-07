@@ -1,0 +1,217 @@
+.page-footer {
+    background-color: #2F303A;
+    display: flex;
+    min-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.container-footer {
+    min-width: 1170px;
+    padding: 0;
+    display: flex;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--button-active-color);
+    text-decoration: none;
+}
+
+.page-footer .studio {
+    color: var(--aditional-color);
+}
+
+.address {
+    margin-top: 20px;
+}
+
+.address-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.address .item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.place {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--aditional-color);
+    text-decoration: none;
+    transition: color var(--transition-timing-function);
+
+}
+
+.email {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color var(--transition-timing-function);
+}
+
+.phone {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color var(--transition-timing-function);
+}
+
+.address a:focus,
+.address a:hover {
+    color: var(--button-active-color);
+}
+
+.page-footer .net-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--aditional-color);
+    transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
+}
+
+.page-footer .net-icon {
+    fill: currentColor;
+}
+
+.page-footer .net-link:hover,
+.page-footer .net-link:focus {
+    background-color: var(--button-active-color);
+}
+
+.page-footer .item {
+    list-style: none;
+}
+
+.page-footer .subtitle {
+    display: block;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--aditional-color);
+}
+
+.footer-list {
+    display: flex;
+    min-width: 1170px;
+    align-items: baseline;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.join-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 72px 93px 100px 70px;
+}
+
+.page-footer .social-net {
+    padding: 0;
+}
+
+.signup-form {
+    display: flex;
+    padding-left: 0;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0 94px 0;
+    align-items: flex-start;
+}
+
+.signup-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.email-input {
+    display: flex;
+    margin-right: 12px;
+    margin-left: 0;
+    padding: 15px 16px;
+    width: 358px;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(47, 48, 58, 1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: border-color var(--transition-timing-function);
+}
+
+.email-input:active,
+.email-input:focus {
+    border-color: var(--button-active-color);
+}
+
+.signup-button {
+    display: block;
+    display: flex;
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--button-active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--button-active-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--aditional-color);
+    cursor: pointer;
+    transition: background-color var(--transition-timing-function), color var(--transition-timing-function);
+}
+
+.signup-button:hover,
+.signup-button:focus,
+.send-button:active {
+    background: #188CE8;
+    color: var(--aditional-color);
+
+}
+
+.send-icon {
+    margin-left: 10px;
+}

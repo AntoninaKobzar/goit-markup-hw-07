@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
 
@@ -23,26 +23,26 @@
     <!--Header-->
     <header class="page-header">
       <div class="container">
-        <nav class="conainer main-nav">
-          <a href="" class="logo-header">Web<span class="studio">Studio</span></a>
+        <nav class="main-nav">
+          <a href="" class="logo logo__header">Web<span class="logo__var">Studio</span></a>
           <ul class="site-nav">
-            <li class="item"><a href="./index.html" class="link current-page">Студія</a></li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+            <li class="site-nav__item"><a href="./index.html" class="site-nav__link site-nav__link current-page">Студія</a></li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
-            <li class="item"><a href="./" class="link">Контакти</a></li>
+            <li class="site-nav__item"><a href="./" class="site-nav__link">Контакти</a></li>
           </ul>
           <ul class="site-auth">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link"
-                ><svg class="icon-header" width="16" height="12">
+            <li class="site-auth__item">
+              <a href="mailto:info@devstudio.com" class="site-auth__link"
+                ><svg class="site-auth__icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="link"
-                ><svg class="icon-header" width="10" height="16">
+            <li class="site-auth__item">
+              <a href="tel:+380961111111" class="site-auth__link"
+                ><svg class="site-auth__icon" width="10" height="16">
                   <use href="./images/icons.svg#icon-phone"></use></svg
                 >+38 096 111 11 11</a
               >
@@ -55,8 +55,8 @@
     <main>
       <section class="section-hero">
         <div class="container-hero">
-          <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="order-button" data-modal-open>Замовити послугу</button>
+          <h1 class="section-hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button hero-button" data-modal-open>Замовити послугу</button>
       </section>
       <!--Особливості-->
       <section class="section-features">

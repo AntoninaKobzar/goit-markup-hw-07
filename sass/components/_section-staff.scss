@@ -1,0 +1,95 @@
+.section-staff {
+    width: 100%;
+    padding-bottom: 94px;
+    padding-top: 94px;
+    width: auto;
+    background-color: #F5F4FA;
+}
+
+.section-staff .title {
+    display: block;
+    display: flex;
+    justify-content: center;
+    min-width: 366px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+}
+
+.staff {
+    display: flex;
+    padding: 0;
+}
+
+.staff .item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.staff .item {
+    list-style: none;
+    background: var(--aditional-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.staff .photo {
+    display: block;
+    max-width: 100%;
+}
+
+.staff .card-text {
+    padding-top: 30px;
+}
+
+.staff-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+.social-net {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px 32px 30px 32px;
+    list-style: none;
+}
+
+.net-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--aditional-color);
+    border-radius: 50%;
+    color: #AFB1B8;
+    transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
+
+}
+
+.net-icon {
+    fill: currentColor;
+}
+
+.net-link:hover,
+.net-link:focus {
+    background-color: var(--button-active-color);
+    color: var(--aditional-color);
+}
