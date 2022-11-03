@@ -10,10 +10,9 @@
     align-items: center;
 }
 
-.logo__header {
+.logo {
     display: flex;
     width: 145px;
-    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
     font-family: 'Raleway';
@@ -25,9 +24,11 @@
     color: var(--button-active-color);
     text-decoration: none;
 }
-
-.page-header .logo__var {
+.logo__header {
+    margin-right: 93px;
+    .logo__text {
     color: var(--primary-text-color);
+    }
 }
 
 .site-nav {
@@ -43,6 +44,7 @@
     display: flex;
     display: block;
     position: relative;
+
 }
 
 &__item:not(:last-child) {
@@ -53,7 +55,7 @@
     margin-left: 0;
 }
 
-&__link .current-page {
+&__link {
     display: block;
     font-weight: 500;
     font-size: 14px;
@@ -72,7 +74,7 @@
     color: var(--button-active-color);
 }
 
-&__link .current-page::after {
+.current-page::after {
     display: block;
     content: '';
     width: 100%;
@@ -84,6 +86,7 @@
     border-radius: 2px;
 }
 }
+
 .site-auth {
     display: flex;
     align-items: center;

@@ -4,14 +4,19 @@
     padding-bottom: 94px;
     width: auto;
 }
+.features {
+        display: flex;
+        padding: 0;
+        gap: 30px;
 
-.feature-list {
+
+&__list {
     display: block;
     list-style: none;
     width: 270px;
 }
 
-.feature-item {
+&__item {
     display: flex;
     width: 270px;
     height: 120px;
@@ -22,13 +27,13 @@
 
 }
 
-.feature-icon {
+&__icon {
     fill: currentColor;
     width: 70px;
     height: 70px;
 }
 
-.features .subtitle {
+&__subtitle {
     margin-bottom: 10px;
     margin-top: 30px;
     font-weight: 700;
@@ -38,15 +43,10 @@
     text-transform: uppercase;
 }
 
-.features .text {
+&__text {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
 }
-
-.features {
-    display: flex;
-    padding: 0;
-    gap: 30px;
 }
