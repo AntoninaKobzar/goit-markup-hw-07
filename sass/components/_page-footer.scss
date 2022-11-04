@@ -15,7 +15,7 @@
     display: flex;
 }
 
- .logo-footer {
+.logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -25,12 +25,10 @@
      color: var(--button-active-color);
      text-decoration: none;
  }
-.logo__footer {
 
-    .logo__text {
+.logo__text--inverse {
         color: var(--aditional-color);
     }
-}
 
 // .page-footer .studio {
 //     color: var(--aditional-color);
