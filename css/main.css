@@ -486,7 +486,8 @@ summary {
   background-position: center;
   background-size: cover;
 }
-.section-hero .container-hero {
+
+.container-hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,6 +503,7 @@ summary {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .section-hero__title {
   display: block;
   text-align: center;
@@ -516,8 +518,8 @@ summary {
   text-transform: uppercase;
   color: var(--aditional-color);
 }
-.section-hero .hero-button {
-  margin: 0 auto;
+
+.main-button {
   min-width: 216px;
   height: 50px;
   padding: 10px 32px;
@@ -539,9 +541,14 @@ summary {
   transition: background-color var(--transition-timing-function), color var(--transition-timing-function), box-shadow var(--transition-timing-function);
   transition: background-color var(--transition-timing-function), color var(--transition-timing-function), box-shadow var(--transition-timing-function), -webkit-box-shadow var(--transition-timing-function);
 }
-.section-hero .hero-button:hover,
-.section-hero .hero-button:active,
-.section-hero .hero-button:focus {
+
+.hero-button {
+  margin: 0 auto;
+}
+
+.hero-button:hover,
+.hero-button:active,
+.hero-button:focus {
   background: #188CE8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
