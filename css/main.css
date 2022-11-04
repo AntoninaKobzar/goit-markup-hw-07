@@ -1078,6 +1078,7 @@ summary {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
+
 .clients__list {
   display: block;
   display: -webkit-box;
@@ -1093,6 +1094,7 @@ summary {
   padding: 0;
   list-style: none;
 }
+
 .clients__link {
   display: block;
   display: -webkit-box;
@@ -1113,14 +1115,15 @@ summary {
   -webkit-transition: color var(--transition-timing-function), outline var(--transition-timing-function), fill var(--transition-timing-function);
   transition: color var(--transition-timing-function), outline var(--transition-timing-function), fill var(--transition-timing-function);
 }
-.clients__icon {
-  fill: currentColor;
-}
-.clients__link:hover, .clients__link:focus {
+
+.clients__link:hover,
+.clients__link:focus {
   outline: 1px solid var(--button-active-color);
   color: var(--button-active-color);
 }
+
 .clients__icon {
+  fill: currentColor;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
