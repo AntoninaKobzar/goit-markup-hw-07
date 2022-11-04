@@ -14,6 +14,11 @@
     padding: 0;
     display: flex;
 }
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
 
 .logo {
     display: flex;
@@ -27,32 +32,25 @@
     color: var(--button-active-color);
     text-decoration: none;
 }
-.page-footer__logo {
-    
-}
 
 .logo__text--inverse {
     color: var(--aditional-color);
     }
 
-// .page-footer .studio {
-//     color: var(--aditional-color);
-// }
-
 .address {
     margin-top: 20px;
+}
 
-
-&__list {
+.address__list {
     padding-left: 0;
     list-style: none;
 }
 
-&__item:not(:last-child) {
+.address__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-&__place {
+.address__place {
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
@@ -63,7 +61,7 @@
 
 }
 
-&__email {
+.address__email {
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
@@ -73,7 +71,7 @@
     transition: color var(--transition-timing-function);
 }
 
-&__phone {
+.address__phone {
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
@@ -83,32 +81,33 @@
     transition: color var(--transition-timing-function);
 }
 
-&__item:focus,
-&__item:hover {
+.address__item:focus,
+.address__item:hover {
     color: var(--button-active-color);
 }
-}
 
-.page-footer .net-link {
+.page-footer .social-net__link {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--aditional-color);
     transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
 }
-
-.page-footer .net-icon {
+.page-footer .social-net {
+    padding: 0;
+}
+.page-footer .social-net__icon {
     fill: currentColor;
 }
 
-.page-footer .net-link:hover,
-.page-footer .net-link:focus {
+.page-footer .social-net__link:hover,
+.page-footer .social-net__link:focus {
     background-color: var(--button-active-color);
 }
 
-.page-footer .item {
-    list-style: none;
-}
+// .page-footer .item {
+//     list-style: none;
+// }
 
-.page-footer .subtitle {
+.page-footer__subtitle {
     display: block;
     display: flex;
     font-weight: 700;
@@ -119,18 +118,12 @@
     color: var(--aditional-color);
 }
 
-.footer-list {
+.footer__list {
     display: flex;
     min-width: 1170px;
     align-items: baseline;
     justify-content: space-between;
     list-style: none;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    padding: 60px 0;
 }
 
 .join-links {
@@ -142,9 +135,7 @@
     padding: 72px 93px 100px 70px;
 }
 
-.page-footer .social-net {
-    padding: 0;
-}
+
 
 .signup-form {
     display: flex;
