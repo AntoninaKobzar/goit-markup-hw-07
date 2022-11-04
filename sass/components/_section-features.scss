@@ -8,15 +8,16 @@
         display: flex;
         padding: 0;
         gap: 30px;
+}
 
 
-&__list {
+.features__list {
     display: block;
     list-style: none;
     width: 270px;
 }
 
-&__item {
+.features__item {
     display: flex;
     width: 270px;
     height: 120px;
@@ -27,13 +28,13 @@
 
 }
 
-&__icon {
+.features__icon {
     fill: currentColor;
     width: 70px;
     height: 70px;
 }
 
-&__subtitle {
+.features__subtitle {
     margin-bottom: 10px;
     margin-top: 30px;
     font-weight: 700;
@@ -43,10 +44,9 @@
     text-transform: uppercase;
 }
 
-&__text {
+.features__text {
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
-}
 }

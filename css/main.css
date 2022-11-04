@@ -816,11 +816,13 @@ summary {
   padding: 0;
   gap: 30px;
 }
+
 .features__list {
   display: block;
   list-style: none;
   width: 270px;
 }
+
 .features__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -836,11 +838,13 @@ summary {
           align-items: center;
   border-radius: 4px;
 }
+
 .features__icon {
   fill: currentColor;
   width: 70px;
   height: 70px;
 }
+
 .features__subtitle {
   margin-bottom: 10px;
   margin-top: 30px;
@@ -850,6 +854,7 @@ summary {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .features__text {
   font-size: 14px;
   line-height: 2;
@@ -869,6 +874,7 @@ summary {
   display: flex;
   padding: 0;
 }
+
 .activities__title {
   display: block;
   display: -webkit-box;
@@ -885,6 +891,7 @@ summary {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
+
 .activities__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -893,6 +900,11 @@ summary {
   min-width: 370px;
   list-style: none;
 }
+
+.activities__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .activities__thumb {
   position: absolute;
   display: -webkit-box;
@@ -910,6 +922,7 @@ summary {
   background-color: #2F303A;
   opacity: 0.8;
 }
+
 .activities__subtitle {
   font-weight: 700;
   font-size: 14px;
@@ -919,14 +932,12 @@ summary {
   text-transform: uppercase;
   color: var(--aditional-color);
 }
+
 .activities__photo {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 0;
-}
-.activities__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .section-staff {
@@ -954,7 +965,7 @@ summary {
   margin-bottom: 50px;
 }
 
-.staff__cards {
+.staff__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -971,13 +982,16 @@ summary {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .card-staff__photo {
   display: block;
   max-width: 100%;
 }
+
 .card-staff__text {
   padding-top: 30px;
 }
+
 .card-staff__name {
   font-weight: 500;
   font-size: 16px;
@@ -987,6 +1001,7 @@ summary {
   color: var(--primary-text-color);
   margin-bottom: 10px;
 }
+
 .card-staff__position {
   font-weight: 400;
   font-size: 16px;
@@ -995,7 +1010,8 @@ summary {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
-.card-staff .social-net {
+
+.social-net {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1003,10 +1019,14 @@ summary {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 16px 32px 30px 32px;
   list-style: none;
 }
-.card-staff .social-net__link {
+
+.card-staff__social-net {
+  padding: 16px 32px 30px 32px;
+}
+
+.social-net__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1024,12 +1044,15 @@ summary {
   -webkit-transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
   transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
 }
-.card-staff .social-net__icon {
-  fill: currentColor;
-}
-.card-staff .social-net__link:hover, .card-staff .social-net__link:focus {
+
+.social-net__link:hover,
+.social-net__link:focus {
   background-color: var(--button-active-color);
   color: var(--aditional-color);
+}
+
+.social-net__icon {
+  fill: currentColor;
 }
 
 .section-clients {
