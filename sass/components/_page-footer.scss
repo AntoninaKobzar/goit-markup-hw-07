@@ -1,4 +1,4 @@
-.page-footer {
+.footer {
     background-color: #2F303A;
     display: flex;
     min-width: 1200px;
@@ -6,7 +6,7 @@
     padding-right: 15px;
     margin: 0 auto;
     align-items: baseline;
-    // justify-content: center;
+    justify-content: center;
 }
 
 .container-footer {
@@ -16,12 +16,7 @@
 }
 .footer__list {
     display: flex;
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1170px;
     align-items: baseline;
-    justify-content: space-between;
-    list-style: none;
 }
 
 .footer__links {
@@ -68,28 +63,23 @@
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--aditional-color);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition: color var(--transition-timing-function);
-}
+    &:focus,
+    &:hover {
+            color: var(--button-active-color);
+        }
+    &--white {
+            color: var(--aditional-color);
+            }   
+    }
 
-.contact__link:not(:first-child) {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.contact__link:focus,
-.contact__link:hover {
-    color: var(--button-active-color);
-}
 
 .join-links {
     display: flex;
-    width: 206px;
-    height: 80px;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
-    align-items: flex-start;
     padding: 72px 93px 100px 70px;
 }
 .join-links__subtitle {
@@ -103,33 +93,30 @@
     text-transform: uppercase;
     color: var(--aditional-color);
 }
-.join-links .social-net {
+.social-net {
     flex-direction: row;
     padding: 0;
 
 }
-.join-links .social-net__link {
+.social-net__link {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--aditional-color);
     transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
 }
 
-.join-links .social-net__link:hover,
-.join-links .social-net__link:focus {
+.social-net__link:hover,
+.social-net__link:focus {
     background-color: var(--button-active-color);
 }
-.join-links .social-net__icon {
+.social-net__icon {
     fill: currentColor;
 }
 
 
 .signup {
     display: flex;
-    width: 570px;
-    height: 86px;
     flex-direction: column;
     padding: 72px 0 94px 0;
-    align-items: flex-end;
 }
 
 .signup__title {
@@ -139,7 +126,12 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--aditional-color);
+}
+.signup__form {
+    display: flex;
+    align-self: flex-end;
+
 }
 
 .email__input {
