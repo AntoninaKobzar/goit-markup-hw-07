@@ -6,7 +6,7 @@
     padding-right: 15px;
     margin: 0 auto;
     align-items: baseline;
-    justify-content: center;
+    // justify-content: center;
 }
 
 .container-footer {
@@ -16,6 +16,8 @@
 }
 .footer__list {
     display: flex;
+    padding: 0;
+    margin: 0 auto;
     max-width: 1170px;
     align-items: baseline;
     justify-content: space-between;
@@ -52,6 +54,7 @@
 }
 
 .contact__list {
+
     padding-left: 0;
     list-style: none;
 }
@@ -89,9 +92,10 @@
     align-items: flex-start;
     padding: 72px 93px 100px 70px;
 }
-.social-net__subtitle {
+.join-links__subtitle {
     display: block;
     display: flex;
+    align-items: flex-start;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -99,33 +103,24 @@
     text-transform: uppercase;
     color: var(--aditional-color);
 }
-.page-footer .social-net__link {
+.join-links .social-net {
+    flex-direction: row;
+    padding: 0;
+
+}
+.join-links .social-net__link {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--aditional-color);
     transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
 }
-.page-footer .social-net {
-    padding: 0;
-    max-width: 206px;
-    margin: 0 auto;
-}
-.page-footer .social-net__icon {
-    fill: currentColor;
-}
 
-.page-footer .social-net__link:hover,
-.page-footer .social-net__link:focus {
+.join-links .social-net__link:hover,
+.join-links .social-net__link:focus {
     background-color: var(--button-active-color);
 }
-
-
-
-
-
-
-
-
-
+.join-links .social-net__icon {
+    fill: currentColor;
+}
 
 
 .signup {
@@ -134,7 +129,7 @@
     height: 86px;
     flex-direction: column;
     padding: 72px 0 94px 0;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .signup__title {

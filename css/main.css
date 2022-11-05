@@ -1149,9 +1149,6 @@ summary {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .container-footer {
@@ -1166,6 +1163,8 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0;
+  margin: 0 auto;
   max-width: 1170px;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
@@ -1260,11 +1259,14 @@ summary {
   padding: 72px 93px 100px 70px;
 }
 
-.social-net__subtitle {
+.join-links__subtitle {
   display: block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1273,26 +1275,28 @@ summary {
   color: var(--aditional-color);
 }
 
-.page-footer .social-net__link {
+.join-links .social-net {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+}
+
+.join-links .social-net__link {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--aditional-color);
   -webkit-transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
   transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
 }
 
-.page-footer .social-net {
-  padding: 0;
-  max-width: 206px;
-  margin: 0 auto;
-}
-
-.page-footer .social-net__icon {
-  fill: currentColor;
-}
-
-.page-footer .social-net__link:hover,
-.page-footer .social-net__link:focus {
+.join-links .social-net__link:hover,
+.join-links .social-net__link:focus {
   background-color: var(--button-active-color);
+}
+
+.join-links .social-net__icon {
+  fill: currentColor;
 }
 
 .signup {
@@ -1306,9 +1310,9 @@ summary {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 72px 0 94px 0;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .signup__title {
