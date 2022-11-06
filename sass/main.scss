@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-@import "./utils/vars";
 @import "./base/normalize";
-@import "./components/page-header";
+@import "./utils/vars";
+// @import "./utils/_font.sccs";
 @import "./components/section-hero";
+@import "./components/page-header";
 @import "./components/modal";
 @import "./components/section-features";
 @import "./components/section-activities";
