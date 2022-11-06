@@ -61,30 +61,14 @@
     color: var(--accent-text-color);
 }
 
-// .social-net {
-//     display: flex;
-//     gap: 10px;
-//     justify-content: center;
-//     list-style: none;
-//     flex-direction: row;
-//     padding: 16px 32px 30px 32px;
-// }
-.card-staff__social-net {
+.social-net {
     padding: 16px 32px 30px 32px;
 }
 
 
 .social-net__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
     background-color: var(--aditional-color);
-    border-radius: 50%;
     color: #AFB1B8;
-    transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
-
 
 &:hover,
 &:focus {
@@ -92,8 +76,6 @@
     color: var(--aditional-color);
 }
 }
-
-
 .social-net__icon {
     fill: currentColor;
 }
