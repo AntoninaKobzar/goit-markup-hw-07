@@ -1,12 +1,14 @@
-@import "./base/normalize";
 @import "./utils/vars";
-@import "./utils/font.sccs";
+@import "./base/normalize";
+// @import "./utils/font.sccs";
 @import "./components/section-hero";
 @import "./components/page-header";
 @import "./components/modal";
+@import "./components/logo.scss";
 @import "./components/section-features";
 @import "./components/section-activities";
 @import "./components/section-staff";
 @import "./components/section-clients";
+@import "./components/social-net";
 @import "./components/page-footer";
 @import "./components/section-portfolio";

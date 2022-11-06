@@ -13,7 +13,7 @@
 .logo {
     display: flex;
     width: 145px;
-    font-family: $logo-fonts;
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -43,10 +43,10 @@
     display: flex;
     display: block;
     position: relative;
-}
 
-.site-nav__item:not(:last-child) {
+&:not(:last-child) {
     margin-right: 50px;
+}
 }
 
 .site-nav__link {
@@ -60,11 +60,11 @@
     padding-top: 32px;
     padding-bottom: 32px;
     transition: color var(--transition-timing-function);
-}
-.site-nav__link:hover,
-.site-nav__link:focus,
-.site-nav__link:active {
+&:hover,
+&:focus,
+&:active {
     color: var(--button-active-color);
+}
 }
 
 .site-nav__link--current::after {
@@ -99,12 +99,12 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     transition: color var(--transition-timing-function);
-}
 
-    .site-auth__link:hover,
-    .site-auth__link:focus {
+&:hover,
+&:focus {
         color: var(--button-active-color);
     }
+}
 
 .site-auth__icon {
     fill: currentColor;

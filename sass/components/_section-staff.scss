@@ -61,12 +61,14 @@
     color: var(--accent-text-color);
 }
 
-.social-net {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    list-style: none;
-}
+// .social-net {
+//     display: flex;
+//     gap: 10px;
+//     justify-content: center;
+//     list-style: none;
+//     flex-direction: row;
+//     padding: 16px 32px 30px 32px;
+// }
 .card-staff__social-net {
     padding: 16px 32px 30px 32px;
 }
@@ -82,16 +84,19 @@
     border-radius: 50%;
     color: #AFB1B8;
     transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
-}
 
-.social-net__link:hover,
-.social-net__link:focus {
+
+&:hover,
+&:focus {
     background-color: var(--button-active-color);
     color: var(--aditional-color);
 }
+}
+
 
 .social-net__icon {
     fill: currentColor;
 }
+
 
 
