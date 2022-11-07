@@ -61,7 +61,7 @@
     color: var(--accent-text-color);
 }
 
-.social-net {
+.card-net {
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -71,7 +71,7 @@
 }
 
 
-.social-net__link {
+.card-net__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,10 +88,11 @@
     color: var(--aditional-color);
 }
 
-.social-net__icon {
+.card-net__icon {
     fill: currentColor;
 }
 }
+
 
 
 

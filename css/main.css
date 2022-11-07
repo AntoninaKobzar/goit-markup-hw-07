@@ -1005,7 +1005,7 @@ summary {
   color: var(--accent-text-color);
 }
 
-.social-net {
+.card-net {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1021,7 +1021,7 @@ summary {
   padding: 16px 32px 30px 32px;
 }
 
-.social-net__link {
+.card-net__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1039,11 +1039,11 @@ summary {
   background-color: var(--aditional-color);
   color: #AFB1B8;
 }
-.social-net__link:hover, .social-net__link:focus {
+.card-net__link:hover, .card-net__link:focus {
   background-color: var(--button-active-color);
   color: var(--aditional-color);
 }
-.social-net__link .social-net__icon {
+.card-net__link .card-net__icon {
   fill: currentColor;
 }
 
