@@ -1005,7 +1005,19 @@ summary {
   color: var(--accent-text-color);
 }
 
-.card-staff__social-net {
+.social-net {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 16px 32px 30px 32px;
 }
 
@@ -1021,18 +1033,17 @@ summary {
           justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: var(--aditional-color);
   border-radius: 50%;
-  color: #AFB1B8;
   -webkit-transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
   transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
+  background-color: var(--aditional-color);
+  color: #AFB1B8;
 }
 .social-net__link:hover, .social-net__link:focus {
   background-color: var(--button-active-color);
   color: var(--aditional-color);
 }
-
-.social-net__icon {
+.social-net__link .social-net__icon {
   fill: currentColor;
 }
 
@@ -1114,48 +1125,6 @@ summary {
           justify-content: center;
   width: 106px;
   height: 60px;
-}
-
-.social-net {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  list-style: none;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.social-net__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: var(--aditional-color);
-  border-radius: 50%;
-  color: #AFB1B8;
-  -webkit-transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
-  transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
-}
-.social-net__link:hover, .social-net__link:focus {
-  background-color: var(--button-active-color);
-  color: var(--aditional-color);
-}
-
-.social-net__icon {
-  fill: currentColor;
 }
 
 .footer {
@@ -1282,20 +1251,43 @@ summary {
 }
 
 .social-net {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 0;
 }
 
 .social-net__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  -webkit-transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
+  transition: background-color var(--transition-timing-function), color var(--transition-timing-function), fill var(--transition-timing-function);
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--aditional-color);
-  -webkit-transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
-  transition: background-color var(--transition-timing-function), fill var(--transition-timing-function);
 }
 .social-net__link:hover, .social-net__link:focus {
   background-color: var(--button-active-color);
 }
-
-.social-net__icon {
+.social-net__link .social-net__icon {
   fill: currentColor;
 }
 
