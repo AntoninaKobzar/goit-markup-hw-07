@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     min-width: 366px;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -43,6 +44,7 @@
 }
 
 .card-staff__name {
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -53,6 +55,7 @@
 }
 
 .card-staff__position {
+    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
